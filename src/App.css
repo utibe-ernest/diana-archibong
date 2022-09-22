@@ -1,0 +1,17 @@
+.App{
+  padding-left: 50px;
+  padding-right: 50px;
+  scroll-behavior: smooth;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.Hero-sight{
+  height: 100vh;
+} 

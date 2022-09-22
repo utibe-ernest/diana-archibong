@@ -1,0 +1,232 @@
+.digital-marketer{
+    font-family:'poppins';
+    font-size: 120px;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 25%;
+    transform: translate(90px, 0px);
+}
+
+@media screen and (max-width: 849px)  {
+    .digital-marketer{
+        font-size: 300%;
+        font-weight: 900;
+       justify-content: center;
+       transform: translate(0px, 0px);
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 750px) {
+    .digital-marketer{
+        font-size: 500%;
+    }
+}
+
+.first{
+    color: transparent;
+    -webkit-text-stroke: 3px black;
+}
+
+.second{
+    color: black;
+    animation: animate 2s ease-in-out infinite;
+}
+
+@media screen and (max-width: 849px)  {
+    .second{
+        display: none;
+    }
+}
+
+@keyframes animate{
+    0%,100%{
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+    50%{
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%,84% 45%,100% 46%,100% 46%, 100% 100%, 0% 100%);
+    }
+}
+
+.writer{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: black;
+    transform: translate(10%, 0%);
+}
+
+@media screen and (max-width: 1100px) and (min-width: 750px) {
+    .writer{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 849px)  {
+    .writer{
+        font-size: 300%;
+        font-weight: 900;
+       justify-content: center;
+       transform: translate(0px, 0px);
+       padding-bottom: 100%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .hire-me{
+        margin-top: 30px;
+    }
+}
+
+.Hero-headers{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 849px)  {
+    .Hero-headers{
+
+       height: 30vh;
+    }
+
+}
+
+@media screen and (max-width: 849px)  {
+    .Hero-headers-wrapper{
+        transform: translate(0, 20%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+
+.Hero-img{
+    /* background: rgba(218, 218, 5, 0.705); */
+    /* transform: translate(-80%, 65%); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-radius: 50% ; */
+    /* position: absolute;
+    padding: 40px; */
+    height: 450px;
+    width: 450px;
+}
+
+.img-wrapper{  
+background: radial-gradient( orange 35%,white , transparent, white);
+    width: 300px;
+    height: 300px;
+    background-position-x: right;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    align-content: center;
+    align-items: center;
+    border: none;
+    /* transform: translate(-130%, 40%); */
+    position: absolute;
+    bottom:8%;  
+    right: 81%;
+}
+
+
+.mobile-img{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 849px)  {
+    .img-wrapper {
+        transform: translate(55%, 140%);
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 849px)  {
+    .Hero-img {
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .img-wrapper{
+        bottom:10%;  
+        right: 75%;
+    }
+
+}
+
+.Hero-buttons-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    padding-left: 7%;
+    gap: 5%;
+}
+
+.Hero-buttons{
+    padding: 20px;
+    width: 200px;
+    color: black;
+    background-color:  white;
+    border-image: linear-gradient(90deg, orange, yellow) ;
+    border-width: 0.2px ;
+    border-style: solid;
+    border-image-slice: 1; 
+    border-radius: 10px;
+    /* margin-right: 25px; */
+    
+}
+
+
+.Hero-buttons:hover{
+    background: linear-gradient(90deg, orange, yellow) ;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .Hero-buttons{
+        width: 150px;
+        padding: 5%;
+        height: 50px;
+    }
+}
+
+.border{
+    background:  linear-gradient(90deg, orange, yellow) ;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+
+.border:hover{
+    background: linear-gradient(90deg, orange, yellow) ;
+}
+
+@media screen and (max-width: 1100px) {
+    .border{
+        width: 150px;
+        height: 50%;
+    }
+}
+
+.mobile-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
